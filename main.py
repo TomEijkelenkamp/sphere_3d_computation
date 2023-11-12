@@ -70,4 +70,4 @@ if circles is not None:
     (xh, yh) = maxLoc
     distance = math.sqrt((x - xh) ** 2 + (y - yh) ** 2)
     angle = round(distance / r * 90)
-    print(f"Angle of the light vector towards z axis: {angle} degrees")
+    print(f"Angle of the light vector with the z axis: {angle} degrees")
